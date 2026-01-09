@@ -44,7 +44,7 @@ export default function Navbar() {
       visible ? "top-0" : "-top-24"
     }`}>
       <div className="container px-6 py-4 flex items-center justify-between backdrop-blur-md bg-background/30">
-        <Link href="#top" className="font-semibold tracking-tight text-zinc-200">
+        <Link href="/" className="font-semibold tracking-tight text-zinc-200 hover:text-white transition-colors">
           Creative Labz
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm text-zinc-300 absolute left-1/2 -translate-x-1/2">
