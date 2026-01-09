@@ -12,7 +12,7 @@ export default function Navbar() {
     { href: "#services", label: "Services" },
     { href: "#about", label: "About" },
     { href: "#clients", label: "Clients" },
-    { href: "#contact", label: "Contact" },
+    { href: "/contact", label: "Contact" },
   ];
 
   useEffect(() => {
@@ -43,7 +43,7 @@ export default function Navbar() {
     <header className={`fixed left-0 right-0 z-50 transition-all duration-300 ${
       visible ? "top-0" : "-top-24"
     }`}>
-      <div className="container px-6 py-4 flex items-center justify-between glass rounded-b-xl">
+      <div className="container px-6 py-4 flex items-center justify-between backdrop-blur-md bg-background/30">
         <Link href="#top" className="font-semibold tracking-tight text-zinc-200">
           Creative Labz
         </Link>
@@ -56,7 +56,7 @@ export default function Navbar() {
         </nav>
         <div className="hidden md:flex items-center gap-4">
           <Link
-            href="#contact"
+            href="/contact"
             className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-black hover:opacity-90"
           >
             Get in touch
@@ -72,14 +72,14 @@ export default function Navbar() {
       </div>
       {open && (
         <div className="md:hidden container px-6 pb-4">
-          <div className="glass rounded-xl p-4 flex flex-col gap-3 text-zinc-300">
+          <div className="backdrop-blur-md bg-background/50 rounded-xl p-4 flex flex-col gap-3 text-zinc-300">
             {navItems.map((n) => (
               <Link key={n.href} href={n.href} onClick={() => setOpen(false)}>
                 {n.label}
               </Link>
             ))}
             <Link
-              href="#contact"
+              href="/contact"
               className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-black"
               onClick={() => setOpen(false)}
             >

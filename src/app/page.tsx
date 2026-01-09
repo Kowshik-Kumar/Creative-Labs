@@ -6,7 +6,6 @@ import Work from "@/sections/Work";
 import Services from "@/sections/Services";
 import About from "@/sections/About";
 import Clients from "@/sections/Clients";
-import Contact from "@/sections/Contact";
 
 export default function Home() {
   return (
@@ -19,7 +18,6 @@ export default function Home() {
           <Services />
           <About />
           <Clients />
-          <Contact />
         </div>
       </main>
       <Footer />
