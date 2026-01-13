@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import Hero from "@/sections/Hero";
 import Work from "@/sections/Work";
 import Services from "@/sections/Services";
-import About from "@/sections/About";
 import Clients from "@/sections/Clients";
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
         <div className="space-y-24 mt-16">
           <Work />
           <Services />
-          <About />
           <Clients />
         </div>
       </main>
