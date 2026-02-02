@@ -8,7 +8,7 @@ export default function Contact() {
         <div className="glass rounded-xl p-6">
         <h3 className="text-xl font-semibold text-white">Let’s create something amazing together!</h3>
         <p className="text-zinc-400 mt-2">
-          Reach out — we’d love to hear about your project and ideas.
+          Reach out — We’d love to hear about your project and ideas.
         </p>
         <form className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
           <input className="rounded-md border bg-transparent px-4 py-3 text-zinc-200" placeholder="Name" />

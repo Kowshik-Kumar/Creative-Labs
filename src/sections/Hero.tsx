@@ -18,7 +18,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
         >
-          We build clear, scalable digital systems across branding, motion, UI/UX, and interactive web experiences.
+          We build clear, scalable digital systems across branding, video editing, motion, UI/UX, and interactive web experiences.
         </motion.p>
         <motion.div
           className="mt-10 md:mt-12 flex gap-4 justify-center"

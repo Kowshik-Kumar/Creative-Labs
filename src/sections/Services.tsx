@@ -8,7 +8,7 @@ const services = [
   },
   {
     title: "Video & Motion",
-    items: ["AI Ads", "Short-form", "UGC-style", "Explainers"],
+    items: ["Video Editing", "AI Ads", "Short-form", "UGC-style", "Explainers"],
   },
   {
     title: "UI/UX",
