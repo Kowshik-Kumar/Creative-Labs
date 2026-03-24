@@ -2,21 +2,25 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Hero from "@/sections/Hero";
-import Work from "@/sections/Work";
-import Services from "@/sections/Services";
-import Clients from "@/sections/Clients";
+import TrustedBy from "@/sections/TrustedBy";
+import DeepExpertise from "@/sections/DeepExpertise";
+import ParallaxTransition from "@/sections/ParallaxTransition";
+import GraphicPortfolio from "@/sections/GraphicPortfolio";
+import MarketingServices from "@/sections/MarketingServices";
+import FAQ from "@/sections/FAQ";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen">
+      <main>
         <Hero />
-        <div className="space-y-24 mt-16">
-          <Work />
-          <Services />
-          <Clients />
-        </div>
+        <TrustedBy />
+        <DeepExpertise />
+        <ParallaxTransition />
+        <GraphicPortfolio />
+        <MarketingServices />
+        <FAQ />
       </main>
       <Footer />
     </>
