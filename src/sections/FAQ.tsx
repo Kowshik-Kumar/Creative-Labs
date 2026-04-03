@@ -155,7 +155,7 @@ export default function FAQ() {
               Got Questions?
             </h2>
             <p style={{ fontSize: "15px", color: "#777", marginTop: "16px", lineHeight: 1.6 }}>
-              Everything you need to know about working with d2cora.
+              Everything you need to know about working with Creative Labz.
             </p>
             <a
               href="/contact"

@@ -42,7 +42,7 @@ export default function Navbar() {
               scrolled ? "text-gray-900" : "text-white"
             }`}
           >
-            d2cora
+            Creative Labz
           </span>
         </Link>
 

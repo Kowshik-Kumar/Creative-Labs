@@ -16,14 +16,14 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "d2cora — Bold Ideas, Flawless Execution",
+  title: "Creative Labz — Bold Ideas, Flawless Execution",
   description:
     "Trusted by founders and business owners who value ROI over hype. Performance, Content & Social Media Marketing.",
   icons: {
     icon: "/favicon.ico",
   },
   openGraph: {
-    title: "d2cora — Bold Ideas, Flawless Execution",
+    title: "Creative Labz — Bold Ideas, Flawless Execution",
     description:
       "Trusted by founders and business owners who value ROI over hype.",
     type: "website",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "d2cora",
+        alt: "Creative Labz",
       },
     ],
   },

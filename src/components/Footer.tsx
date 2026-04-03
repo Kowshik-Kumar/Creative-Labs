@@ -25,7 +25,7 @@ export default function Footer() {
               >
                 dc
               </div>
-              <span style={{ color: "white", fontWeight: 700, fontSize: "18px" }}>d2cora</span>
+              <span style={{ color: "white", fontWeight: 700, fontSize: "18px" }}>Creative Labz</span>
             </div>
             <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.45)", lineHeight: 1.7 }}>
               Bold ideas deserve flawless execution. We help brands grow with performance, content & social marketing.
@@ -178,7 +178,7 @@ export default function Footer() {
               textAlign: "center",
             }}
           >
-            d2cora
+            Creative Labz
           </p>
         </div>
 
@@ -187,7 +187,7 @@ export default function Footer() {
           className="flex flex-col md:flex-row items-center justify-between gap-3 py-5"
           style={{ fontSize: "12px", color: "rgba(255,255,255,0.3)" }}
         >
-          <p>© {new Date().getFullYear()} d2cora. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Creative Labz. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/privacy" className="hover:text-white transition-colors">
               Privacy Policy
