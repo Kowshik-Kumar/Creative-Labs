@@ -5,32 +5,32 @@ const faqs = [
   {
     question: "What kind of businesses do you work with?",
     answer:
-      "We work primarily with D2C brands, e-commerce stores, high-ticket education businesses, and personal brands. If you're selling online and want predictable, scalable growth — we're a fit.",
+      "We work with startups, SMEs, and internal product teams that need software built, modernized, or maintained with a strong engineering standard.",
   },
   {
-    question: "How long does it take to see results from performance marketing?",
+    question: "How long does it take to ship a product?",
     answer:
-      "Most clients see measurable improvement in ROAS and conversion rates within the first 30–60 days. We audit existing campaigns, fix fundamental issues, and launch optimized structures rapidly.",
+      "Discovery and delivery timelines depend on scope, but most MVPs, dashboards, or internal tools move from kickoff to launch in iterative sprints with weekly demos.",
   },
   {
-    question: "Do you guarantee ROI?",
+    question: "Do you support existing codebases?",
     answer:
-      "We don't offer empty guarantees — but we do bring a proven system, full transparency, and weekly reporting. Our track record speaks: clients average 3–5x ROAS within 90 days.",
+      "Yes. We handle audits, refactors, bug fixes, performance tuning, and ongoing support for codebases that need structure and stability.",
   },
   {
     question: "How much do your services cost?",
     answer:
-      "Pricing depends on the scope and scale of your goals. We offer tailored packages starting from ₹25,000/month. Book a call and we'll create a custom proposal for you.",
+      "Pricing depends on scope, technical complexity, and support needs. We offer fixed-scope builds and ongoing retainers with clear milestones.",
   },
   {
-    question: "Do you handle both content creation and paid advertising?",
+    question: "Do you handle both design and development?",
     answer:
-      "Yes! We offer end-to-end marketing — from ad creatives and content strategy to paid campaign management and social media growth. You get one team, full execution.",
+      "Yes. We can take a product from wireframes and design systems through implementation, testing, deployment, and handoff.",
   },
   {
-    question: "Can I work with you if I'm just starting out?",
+    question: "Can I work with you if I only have an idea?",
     answer:
-      "Absolutely. We've helped startups go from zero to their first ₹10L month. We'll build the right foundation from day one.",
+      "Absolutely. We help validate the scope, define the architecture, and turn early concepts into a practical delivery plan.",
   },
 ];
 
@@ -152,10 +152,10 @@ export default function FAQ() {
                 lineHeight: 1.15,
               }}
             >
-              Got Questions?
+              Got Technical Questions?
             </h2>
             <p style={{ fontSize: "15px", color: "#777", marginTop: "16px", lineHeight: 1.6 }}>
-              Everything you need to know about working with Creative Labz.
+              Everything you need to know about working with Creative Labz as a technical services partner.
             </p>
             <a
               href="/contact"

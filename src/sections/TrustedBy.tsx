@@ -38,7 +38,7 @@ export default function TrustedBy() {
                 letterSpacing: "-0.02em",
               }}
             >
-              Trusted by founders and business owners who value ROI over hype.
+              Trusted by product teams who value reliability over hype.
             </h2>
             <p
               className="mt-6"
@@ -50,12 +50,11 @@ export default function TrustedBy() {
                 paddingLeft: "16px",
               }}
             >
-              From local service businesses to scaling SaaS platforms, we partner
-              with teams that demand predictable growth and clear execution.
+              From startups to growing platforms, we partner with teams that need clean architecture, dependable delivery, and measurable performance.
             </p>
           </div>
 
-          {/* Right: Campaign Performance card */}
+          {/* Right: Delivery metrics card */}
           <div className="flex-1 w-full max-w-md">
             <div
               className="rounded-2xl overflow-hidden"
@@ -72,9 +71,9 @@ export default function TrustedBy() {
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="#1E88E5">
                       <path d="M3 3h18v18H3zM7 17V10m4 7V7m4 10v-4" stroke="#1E88E5" strokeWidth="2" fill="none" />
                     </svg>
-                    <p style={{ fontSize: "13px", fontWeight: 700, color: "#001A33" }}>Campaign Performance</p>
+                    <p style={{ fontSize: "13px", fontWeight: 700, color: "#001A33" }}>Delivery Dashboard</p>
                   </div>
-                  <p style={{ fontSize: "11px", color: "#999", marginTop: "2px" }}>Google Ads Overview</p>
+                  <p style={{ fontSize: "11px", color: "#999", marginTop: "2px" }}>Engineering Health Overview</p>
                 </div>
                 <span
                   style={{
@@ -93,10 +92,10 @@ export default function TrustedBy() {
               {/* Metrics grid */}
               <div className="grid grid-cols-4 gap-3 mb-6">
                 {[
-                  { label: "CLICKS", value: "45.2K", change: "+12%", up: true },
-                  { label: "IMPRESSIONS", value: "1.2M", change: "+8%", up: true },
-                  { label: "AVG. CPC", value: "$0.84", change: "-2%", up: false },
-                  { label: "CONVERSIONS", value: "2,845", change: "+24%", up: true },
+                  { label: "UPTIME", value: "99.98%", change: "+0.2%", up: true },
+                  { label: "DEPLOYS", value: "128", change: "+18%", up: true },
+                  { label: "AVG. LATENCY", value: "84ms", change: "-11%", up: true },
+                  { label: "ISSUES RESOLVED", value: "2,845", change: "+24%", up: true },
                 ].map((m) => (
                   <div key={m.label}>
                     <p style={{ fontSize: "9px", color: "#999", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.05em" }}>
@@ -115,7 +114,7 @@ export default function TrustedBy() {
                 <svg width="100%" height="100" viewBox="0 0 300 100" preserveAspectRatio="none">
                   {/* Main blue line */}
                   <polyline
-                    points="0,80 40,65 80,50 120,40 160,55 200,30 240,20 280,25 300,15"
+                    points="0,78 40,70 80,58 120,46 160,48 200,34 240,28 280,22 300,18"
                     fill="none"
                     stroke="#1E88E5"
                     strokeWidth="2.5"
@@ -124,12 +123,12 @@ export default function TrustedBy() {
                   />
                   {/* Fill area */}
                   <polygon
-                    points="0,80 40,65 80,50 120,40 160,55 200,30 240,20 280,25 300,15 300,100 0,100"
+                    points="0,78 40,70 80,58 120,46 160,48 200,34 240,28 280,22 300,18 300,100 0,100"
                     fill="rgba(30,136,229,0.08)"
                   />
                   {/* Orange accent line */}
                   <polyline
-                    points="0,90 40,85 80,82 120,70 160,75 200,60 240,65 280,50 300,55"
+                    points="0,88 40,82 80,78 120,66 160,68 200,58 240,54 280,42 300,44"
                     fill="none"
                     stroke="#FF5722"
                     strokeWidth="1.5"

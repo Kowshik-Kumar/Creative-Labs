@@ -7,26 +7,26 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Groww Launch Campaign",
-    category: "Video & Motion",
+    title: "Atlas Core Platform",
+    category: "Web Application",
     image: "/projects/groww.jpg",
     href: "#",
   },
   {
-    title: "Cult Smartwatch Launch",
-    category: "Product Video",
+    title: "Northstar CRM",
+    category: "Internal Tool",
     image: "/projects/cult.jpg",
     href: "#",
   },
   {
-    title: "Arovalis Brand Identity",
-    category: "Branding & Packaging",
+    title: "Helix Health Portal",
+    category: "Customer Platform",
     image: "/projects/arovalis.jpg",
     href: "#",
   },
   {
-    title: "MadDrop Interactive Website",
-    category: "Web Design & Dev",
+    title: "Relay Ops Automation",
+    category: "Workflow System",
     image: "/projects/maddrop.jpg",
     href: "#",
   },

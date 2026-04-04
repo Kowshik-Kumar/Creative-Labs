@@ -15,8 +15,9 @@ export default function Navbar() {
   const navItems = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About Us" },
-    { href: "/services", label: "Services" },
-    { href: "/contact", label: "Contact us" },
+    { href: "/#services", label: "Services" },
+    { href: "/#work", label: "Our Work" },
+    { href: "/contact", label: "Contact Us" },
   ];
 
   return (
@@ -35,7 +36,7 @@ export default function Navbar() {
               scrolled ? "bg-blue-600 text-white" : "bg-white/20 text-white"
             }`}
           >
-            dc
+            CL
           </div>
           <span
             className={`text-lg font-bold tracking-tight transition-colors ${
@@ -78,15 +79,14 @@ export default function Navbar() {
           {/* Get Started */}
           <Link
             href="/contact"
-            className={`flex items-center gap-2 rounded-full px-5 py-2 text-sm font-semibold transition-all border ${
-              scrolled
-                ? "bg-blue-600 text-white border-blue-600 hover:bg-blue-700"
-                : "bg-transparent border-white text-white hover:bg-white hover:text-gray-900"
+            className={`flex items-center gap-2 text-base font-medium transition-colors ${
+              scrolled ? "text-[#0B0F14] hover:opacity-70" : "text-[#0B0F14] hover:opacity-80"
             }`}
           >
             Get Started
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M5 12h14M12 5l7 7-7 7" />
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.25" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h12" />
+              <path d="m13 6 6 6-6 6" />
             </svg>
           </Link>
         </div>
@@ -130,7 +130,7 @@ export default function Navbar() {
             <Link
               href="/contact"
               onClick={() => setOpen(false)}
-              className="mt-2 bg-blue-600 text-white text-center rounded-full px-5 py-2.5 text-sm font-semibold hover:bg-blue-700 transition-colors"
+              className="mt-2 text-[#0B0F14] text-center rounded-full px-5 py-2.5 text-base font-semibold hover:opacity-80 transition-colors"
             >
               Get Started →
             </Link>

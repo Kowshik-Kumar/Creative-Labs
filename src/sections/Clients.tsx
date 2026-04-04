@@ -15,7 +15,7 @@ const clients = [
 
 export default function Clients() {
   return (
-    <Section id="clients" title="Clients©" subtitle="Brand Partners">
+    <Section id="clients" title="Clients" subtitle="Delivery Partners">
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
         {clients.map((c, idx) => (
           <FadeIn key={idx} delay={idx * 0.05}>

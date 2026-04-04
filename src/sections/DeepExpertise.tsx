@@ -2,12 +2,12 @@
 import { useEffect, useRef } from "react";
 
 const industries = [
-  { label: "Fashion & Apparel", icon: "👗", angle: 0 },
-  { label: "Skincare", icon: "✨", angle: 60 },
-  { label: "Supplements", icon: "💊", angle: 120 },
-  { label: "Jewelry", icon: "💎", angle: 180 },
-  { label: "Pet", icon: "🐾", angle: 240 },
-  { label: "High-Ticket Education", icon: "🎓", angle: 300 },
+  { label: "SaaS Platforms", icon: "🧩", angle: 0 },
+  { label: "Fintech", icon: "💳", angle: 60 },
+  { label: "Healthcare", icon: "🩺", angle: 120 },
+  { label: "Logistics", icon: "🚚", angle: 180 },
+  { label: "EdTech", icon: "🎓", angle: 240 },
+  { label: "Internal Tools", icon: "⚙️", angle: 300 },
 ];
 
 export default function DeepExpertise() {
@@ -47,7 +47,7 @@ export default function DeepExpertise() {
                 lineHeight: 1.2,
               }}
             >
-              Deep Expertise Across the Board.
+              Deep Technical Expertise Across the Board.
             </h2>
             <p
               className="mt-4 mx-auto"
@@ -58,7 +58,7 @@ export default function DeepExpertise() {
                 lineHeight: 1.6,
               }}
             >
-              We adapt our proven growth systems to fit the unique challenges of your industry.
+              We adapt our delivery process to fit the architecture, compliance, and performance needs of each product.
             </p>
           </div>
 
@@ -98,8 +98,8 @@ export default function DeepExpertise() {
                 }}
               >
                 <div>
-                  <p style={{ fontSize: "13px", fontWeight: 800, color: "white", lineHeight: 1.2 }}>D2C</p>
-                  <p style={{ fontSize: "10px", color: "rgba(255,255,255,0.75)", fontWeight: 500 }}>E-commerce</p>
+                  <p style={{ fontSize: "13px", fontWeight: 800, color: "white", lineHeight: 1.2 }}>PRODUCT</p>
+                  <p style={{ fontSize: "10px", color: "rgba(255,255,255,0.75)", fontWeight: 500 }}>Engineering</p>
                 </div>
               </div>
 
@@ -137,21 +137,21 @@ export default function DeepExpertise() {
             <div className="flex-1 max-w-lg">
               {[
                 {
-                  title: "D2C / E-commerce",
+                  title: "Web Platforms",
                   icon: "🛍️",
-                  tags: ["Fashion", "Skincare", "Supplements", "Jewelry", "Pet"],
+                  tags: ["SaaS", "Portals", "Dashboards", "Customer Apps"],
                   color: "#1E88E5",
                 },
                 {
-                  title: "High-Ticket Education",
+                  title: "Mobile & APIs",
                   icon: "🎓",
-                  tags: ["Online Courses", "Coaching Programs", "Masterclasses"],
+                  tags: ["iOS", "Android", "REST APIs", "Integrations"],
                   color: "#FF5722",
                 },
                 {
-                  title: "Personal Brands & Coaches",
+                  title: "Cloud & DevOps",
                   icon: "🌟",
-                  tags: ["Thought Leaders", "Consultants", "Influencers"],
+                  tags: ["CI/CD", "Monitoring", "Scalability", "Security"],
                   color: "#7C3AED",
                 },
               ].map((cat) => (

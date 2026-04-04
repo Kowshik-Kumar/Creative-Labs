@@ -2,12 +2,12 @@
 import { useEffect, useRef } from "react";
 
 const portfolioItems = [
-  { brand: "Velvetrot", category: "Fashion", color: "#C62828" },
-  { brand: "Vastra Aura", category: "Apparel", color: "#1A237E" },
-  { brand: "GlowSkin", category: "Skincare", color: "#F57F17" },
-  { brand: "SupraFit", category: "Supplements", color: "#2E7D32" },
-  { brand: "Lumière", category: "Jewelry", color: "#6A1B9A" },
-  { brand: "PetNest", category: "Pet", color: "#00695C" },
+  { brand: "Atlas Core", category: "SaaS Platform", color: "#0F62FE" },
+  { brand: "Northstar CRM", category: "Internal Tooling", color: "#0052CC" },
+  { brand: "Helix Health", category: "Web App", color: "#0F766E" },
+  { brand: "Relay Ops", category: "Automation", color: "#7C3AED" },
+  { brand: "Ledger Grid", category: "Fintech", color: "#D97706" },
+  { brand: "Nova Cloud", category: "Infrastructure", color: "#111827" },
 ];
 
 export default function GraphicPortfolio() {
@@ -40,7 +40,7 @@ export default function GraphicPortfolio() {
             color: "white",
             letterSpacing: "-0.01em",
           }}>
-            Our Graphic Portfolio
+            Selected Work
           </h2>
           <div
             style={{
@@ -128,7 +128,7 @@ export default function GraphicPortfolio() {
                       letterSpacing: "0.1em",
                     }}
                   >
-                    Creative Direction
+                    Technical Delivery
                   </p>
                 </div>
               </div>

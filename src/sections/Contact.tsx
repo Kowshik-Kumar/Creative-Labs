@@ -3,12 +3,12 @@ import FadeIn from "@/components/FadeIn";
 
 export default function Contact() {
   return (
-    <Section id="contact" title="Get in touch©" subtitle="Studio Wrap">
+    <Section id="contact" title="Get in touch" subtitle="Technical Intake">
       <FadeIn>
         <div className="glass rounded-xl p-6">
-        <h3 className="text-xl font-semibold text-white">Let’s create something amazing together!</h3>
+        <h3 className="text-xl font-semibold text-white">Let’s plan your next build.</h3>
         <p className="text-zinc-400 mt-2">
-          Reach out — We’d love to hear about your project and ideas.
+          Reach out with your product goals, platform constraints, or support needs.
         </p>
         <form className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
           <input className="rounded-md border bg-transparent px-4 py-3 text-zinc-200" placeholder="Name" />

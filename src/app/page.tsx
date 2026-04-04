@@ -6,7 +6,7 @@ import TrustedBy from "@/sections/TrustedBy";
 import DeepExpertise from "@/sections/DeepExpertise";
 import ParallaxTransition from "@/sections/ParallaxTransition";
 import GraphicPortfolio from "@/sections/GraphicPortfolio";
-import MarketingServices from "@/sections/MarketingServices";
+import TechnicalServices from "@/sections/MarketingServices";
 import FAQ from "@/sections/FAQ";
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
         <DeepExpertise />
         <ParallaxTransition />
         <GraphicPortfolio />
-        <MarketingServices />
+        <TechnicalServices />
         <FAQ />
       </main>
       <Footer />

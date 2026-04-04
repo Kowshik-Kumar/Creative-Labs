@@ -101,8 +101,7 @@ export default function ParallaxTransition() {
               margin: "0 auto",
             }}
           >
-            Discover timeless ideas that inspire authentic brands and transform
-            execution into market leading dominance.
+            Discover practical systems that turn complex requirements into reliable, high-performing digital products.
           </p>
         </div>
       </div>

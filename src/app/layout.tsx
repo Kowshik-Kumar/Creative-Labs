@@ -16,16 +16,16 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Creative Labz — Bold Ideas, Flawless Execution",
+  title: "Creative Labz — Technical Services for Modern Teams",
   description:
-    "Trusted by founders and business owners who value ROI over hype. Performance, Content & Social Media Marketing.",
+    "Creative Labz builds fast, reliable digital products with web development, UI/UX, cloud infrastructure, and product engineering.",
   icons: {
     icon: "/favicon.ico",
   },
   openGraph: {
-    title: "Creative Labz — Bold Ideas, Flawless Execution",
+    title: "Creative Labz — Technical Services for Modern Teams",
     description:
-      "Trusted by founders and business owners who value ROI over hype.",
+      "A technical services agency focused on shipping dependable web products, internal tools, and scalable digital systems.",
     type: "website",
     url: "https://localhost",
     images: [

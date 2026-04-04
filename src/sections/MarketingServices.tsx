@@ -4,13 +4,13 @@ import { useEffect, useRef } from "react";
 const services = [
   {
     id: "website-design",
-    title: "Website Design",
+    title: "Web Application Development",
     number: "01",
-    quote: "First impressions happen in seconds. Make every pixel count.",
+    quote: "Reliable software should feel invisible when it works and obvious when it doesn’t.",
     translation: "",
     description:
-      "Conversion-first website experiences crafted for speed, clarity, and trust. From landing pages to complete business sites, we design for growth.",
-    tags: ["Landing Pages", "Corporate Sites", "UX Writing", "Responsive UI"],
+      "We build fast, maintainable front ends and full-stack experiences for product teams, operations teams, and customer-facing platforms.",
+    tags: ["Next.js", "React", "TypeScript", "Responsive UI"],
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
         <rect x="4" y="6" width="24" height="20" rx="3" stroke="#001A33" strokeWidth="2" />
@@ -22,12 +22,12 @@ const services = [
   },
   {
     id: "dashboard-design",
-    title: "Dashboard Design",
+    title: "Product Dashboards",
     number: "02",
-    quote: "Complex data should feel simple, clear, and actionable.",
+    quote: "Complex data should feel clear, measurable, and actionable.",
     translation: "",
     description:
-      "We design product dashboards and internal tools that help teams track, decide, and execute faster with confidence.",
+      "We design internal tools, admin panels, and analytics surfaces that help teams make decisions faster with less friction.",
     tags: ["Data UI", "Admin Panels", "SaaS Dashboards", "Design Systems"],
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -41,12 +41,12 @@ const services = [
 ];
 
 const comingSoonServices = [
-  "Full Stack Website",
-  "Marketing Services",
-  "Video Services",
+  "Cloud Infrastructure",
+  "Mobile Apps",
+  "AI Integrations",
 ];
 
-export default function MarketingServices() {
+export default function TechnicalServices() {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -80,7 +80,7 @@ export default function MarketingServices() {
               marginBottom: "12px",
             }}
           >
-            What We Do
+            What We Build
           </p>
           <h2
             style={{
@@ -91,7 +91,7 @@ export default function MarketingServices() {
               lineHeight: 1.1,
             }}
           >
-            Marketing <br />
+            Technical <br />
             <span style={{ fontWeight: 800 }}>Services</span>
           </h2>
         </div>
@@ -208,7 +208,7 @@ export default function MarketingServices() {
                 marginBottom: "10px",
               }}
             >
-              Coming Soon Category
+              Upcoming Capabilities
             </p>
             <div className="flex flex-wrap gap-2">
               {comingSoonServices.map((item) => (

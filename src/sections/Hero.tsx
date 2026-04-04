@@ -20,23 +20,22 @@ export default function Hero() {
       className="hero-gradient min-h-screen flex flex-col justify-center relative overflow-hidden"
       style={{ paddingTop: "80px" }}
     >
-      {/* Decorative sketch illustrations (CSS-based placeholders for marketing equipment) */}
+      {/* Decorative sketch illustrations (CSS-based placeholders for technical systems) */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Megaphone top-right area */}
+        {/* Top-right service node */}
         <div className="absolute top-16 right-[10%] opacity-20">
           <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
-            <path d="M20 50 L70 30 L70 70 L20 70 Z" stroke="white" strokeWidth="2" fill="none" />
-            <path d="M70 35 Q100 20 100 50 Q100 80 70 65" stroke="white" strokeWidth="2" fill="none" />
-            <path d="M20 70 L15 90 L25 90 L30 70" stroke="white" strokeWidth="2" fill="none" />
+            <rect x="24" y="34" width="44" height="34" rx="6" stroke="white" strokeWidth="2" fill="none" />
+            <path d="M31 46H61M31 54H52" stroke="white" strokeWidth="2" strokeLinecap="round" />
+            <path d="M74 42H92M74 58H96" stroke="white" strokeWidth="2" strokeLinecap="round" />
           </svg>
         </div>
-        {/* Camera right side */}
+        {/* Infrastructure node */}
         <div className="absolute top-1/2 right-[5%] opacity-15 -translate-y-1/2">
           <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
-            <rect x="10" y="25" width="60" height="40" rx="4" stroke="white" strokeWidth="2" />
-            <circle cx="40" cy="45" r="12" stroke="white" strokeWidth="2" />
-            <circle cx="40" cy="45" r="6" stroke="white" strokeWidth="2" />
-            <rect x="25" y="17" width="20" height="10" rx="2" stroke="white" strokeWidth="2" />
+            <rect x="12" y="20" width="56" height="40" rx="4" stroke="white" strokeWidth="2" />
+            <path d="M22 30H58M22 40H46M22 50H54" stroke="white" strokeWidth="2" strokeLinecap="round" />
+            <circle cx="58" cy="40" r="4" fill="white" />
           </svg>
         </div>
         {/* Stars scattered */}
@@ -75,7 +74,7 @@ export default function Hero() {
                   lineHeight: 1,
                 }}
               >
-                BOLD
+                BUILD
               </span>
               <span
                 style={{
@@ -86,7 +85,7 @@ export default function Hero() {
                   verticalAlign: "middle",
                 }}
               >
-                ideas
+                systems
               </span>
             </span>
             <span
@@ -124,7 +123,7 @@ export default function Hero() {
                   verticalAlign: "middle",
                 }}
               >
-                execution
+                engineering
               </span>
               <span
                 style={{
@@ -149,25 +148,28 @@ export default function Hero() {
               lineHeight: 1.6,
             }}
           >
-            Trusted by founders and business owners who value ROI over hype.
+            We design and build reliable digital products, internal tools, and cloud-connected systems for teams that need speed without sacrificing quality.
           </p>
 
           {/* CTA Buttons */}
-          <div className="mt-10 flex flex-wrap gap-4">
+          <div className="mt-12 flex flex-wrap items-center gap-8">
             <a
               href="/contact"
-              className="inline-flex items-center gap-2 rounded-full px-7 py-3 text-sm font-bold text-white border border-white/50 hover:bg-white hover:text-gray-900 transition-all duration-200"
+              className="inline-flex items-center gap-3 text-lg font-bold text-[#0B0F14] transition-opacity hover:opacity-80"
             >
-              Get Started
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+              Start a Project
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
             </a>
             <a
               href="#services"
-              className="inline-flex items-center gap-2 rounded-full px-7 py-3 text-sm font-bold bg-white/10 text-white hover:bg-white/20 transition-all duration-200"
+              className="inline-flex items-center gap-3 text-lg font-bold text-[#0B0F14] transition-opacity hover:opacity-80"
             >
-              Our Services
+              View Services
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
             </a>
           </div>
         </div>

@@ -16,16 +16,16 @@ export default function ContactPage() {
                   Get in touch
                 </h1>
                 <p className="text-xl text-zinc-400">
-                  Studio Wrap
+                  Technical Project Intake
                 </p>
               </div>
 
               <div className="glass rounded-xl p-8 md:p-12">
                 <h2 className="text-2xl font-semibold text-white mb-4">
-                  Let's create something amazing together!
+                  Let's plan your next build.
                 </h2>
                 <p className="text-zinc-400 mb-8">
-                  Reach out — we'd love to hear about your project and ideas.
+                  Share the product, platform, or process you want to improve and we’ll respond with a practical approach.
                 </p>
                 
                 <form className="grid grid-cols-1 md:grid-cols-2 gap-6">

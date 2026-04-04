@@ -3,26 +3,26 @@ import FadeIn from "@/components/FadeIn";
 
 const services = [
   {
-    title: "Brand Design",
-    items: ["Identity", "Product", "Assets", "Packaging"],
+    title: "Product Engineering",
+    items: ["Discovery", "Architecture", "Build", "Iteration"],
   },
   {
-    title: "Video & Motion",
-    items: ["Video Editing", "AI Ads", "Short-form", "UGC-style", "Explainers"],
+    title: "Cloud & DevOps",
+    items: ["CI/CD", "Monitoring", "Deployments", "Security", "Scaling"],
   },
   {
     title: "UI/UX",
-    items: ["Research", "Design", "Micro-interactions", "Prototyping"],
+    items: ["Research", "Design Systems", "Flows", "Prototyping"],
   },
   {
-    title: "Web",
-    items: ["Website Dev", "App Dev", "Interactive", "E-commerce"],
+    title: "Integrations",
+    items: ["APIs", "Automation", "Data Sync", "Third-party Tools"],
   },
 ];
 
 export default function Services() {
   return (
-    <Section id="services" title="Services©" subtitle="Digital Execution">
+    <Section id="services" title="Services" subtitle="Technical Delivery">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {services.map((s, idx) => (
           <FadeIn key={s.title} delay={idx * 0.1}>

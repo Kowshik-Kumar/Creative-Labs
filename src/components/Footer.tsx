@@ -28,7 +28,7 @@ export default function Footer() {
               <span style={{ color: "white", fontWeight: 700, fontSize: "18px" }}>Creative Labz</span>
             </div>
             <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.45)", lineHeight: 1.7 }}>
-              Bold ideas deserve flawless execution. We help brands grow with performance, content & social marketing.
+              Clear systems deserve disciplined execution. We build web products, internal tools, and cloud-connected software for modern teams.
             </p>
             {/* Social icons */}
             <div className="flex gap-3 mt-6">
@@ -106,17 +106,17 @@ export default function Footer() {
                 marginBottom: "16px",
               }}
             >
-              Products
+              Services
             </h4>
             <ul className="flex flex-col gap-3">
               {[
-                "Performance Marketing",
-                "Content Marketing",
-                "Social Media Marketing",
+                "Web Application Development",
+                "Product Dashboards",
+                "Cloud & DevOps",
               ].map((item) => (
                 <li key={item}>
                   <Link
-                    href="/services"
+                    href="/#services"
                     style={{ fontSize: "14px", color: "rgba(255,255,255,0.65)", textDecoration: "none" }}
                     className="hover:text-white transition-colors"
                   >
@@ -145,7 +145,7 @@ export default function Footer() {
               {[
                 { label: "Home", href: "/" },
                 { label: "About", href: "/about" },
-                { label: "Services", href: "/services" },
+                { label: "Services", href: "/#services" },
                 { label: "Contact", href: "/contact" },
               ].map((item) => (
                 <li key={item.label}>
